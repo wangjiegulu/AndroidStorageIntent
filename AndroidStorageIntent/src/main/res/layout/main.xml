@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:padding="20dp"
+              android:gravity="center"
+              android:textSize="17sp"
+              android:textColor="#00aa00"
+              android:text="AC TEST A"
+            />
+
+    <Button
+            android:id="@+id/ac_test_a_btn"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Main Activity"
+            />
+
+</LinearLayout>
